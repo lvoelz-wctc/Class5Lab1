@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<form>
+    <input type="radio" name="rank" id="rank-captain" value="Captain" data-color="red">
+    <label for="rank-captain">Captain</label>
+    <br>
+    <input type="radio" name="rank" id="rank-commander" value="Commander" data-color="green">
+    <label for="rank-commander">Commander</label>
+    <br>
+    <input type="radio" name="rank" id="rank-commodore" value="Commodore" data-color="blue">
+    <label for="rank-commodore">Commodore</label>
+    <br>
+    <input type="text" name="wholeName" id="first-name">
+    <label for="first-name">First Name</label>
+    <br>
+    <input type="text" name="wholeName" id="last-name">
+    <label for="first-name">Last Name</label>
+    <br>
+    <button id="showGreeting">Show Greeting</button>
+</form>
+
+<!--<p id="output">Hello, <span id="rankOutput"></span> <span id="firstNameOutput"></span> <span id="lastNameOutput"></span>!</p>-->
+<p id="output">Hello, <span id="greeting"></span>!</p>
+
+<!--Scripts-->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="code.js"></script>
+</body>
+</html>
